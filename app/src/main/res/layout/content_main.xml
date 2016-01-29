@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:name="com.ng.anthony.mininavigationdrawer.MasterFragment"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_master">
+    </fragment>
+
+    <FrameLayout
+        android:layout_width="700dp"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</android.support.v4.widget.SlidingPaneLayout>
