@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--Master fragment-->
     <fragment
         android:name="com.ng.anthony.mininavigationdrawer.MasterFragment"
         android:layout_width="220dp"
@@ -11,8 +12,10 @@
         android:id="@+id/fragment_master">
     </fragment>
 
+    <!--Detail layout -->
     <FrameLayout
-        android:layout_width="700dp"
-        android:layout_height="match_parent">
+        android:layout_width="1000dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="56dp">
     </FrameLayout>
 </android.support.v4.widget.SlidingPaneLayout>
