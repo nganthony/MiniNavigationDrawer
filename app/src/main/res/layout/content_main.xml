@@ -17,6 +17,7 @@
     <FrameLayout
         android:layout_width="1000dp"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:layout_marginLeft="56dp">
     </FrameLayout>
 </android.support.v4.widget.SlidingPaneLayout>
